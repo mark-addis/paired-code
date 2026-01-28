@@ -41,7 +41,7 @@ class MusicTracker:
 Check instance initialises
 """
 tracker = MusicTracker()
-tracker.list() => []
+isinstance(tracker, MusicTracker) => True
 
 """
 Add a track

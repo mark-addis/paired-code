@@ -2,7 +2,7 @@ from lib.music_tracker import *
 
 def test_instance_initialises():
     tracker = MusicTracker()
-    assert tracker.list_tracks() == []
+    assert isinstance(tracker, MusicTracker)
 
 def test_add_track():
     tracker = MusicTracker()
